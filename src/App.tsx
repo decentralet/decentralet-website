@@ -1,10 +1,5 @@
-import React from 'react';
-
-function App() {
-  return (
-    <div>
-    </div>
-  );
+function App(): JSX.Element {
+  return <div />;
 }
 
 export default App;
