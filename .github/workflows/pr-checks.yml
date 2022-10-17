@@ -15,8 +15,6 @@ jobs:
   pr-checks:
     name: Pull Request Checks
     runs-on: ubuntu-latest
-    env:
-      CI: false
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3.0.0
