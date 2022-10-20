@@ -21,7 +21,7 @@ Install both the _Prettier_ and _ESLint_ to ensure you code is formatted correct
 
 &lt;change_type>/&lt;ticket_number>/&lt;simple description>
 
-e.g. **DA-787/feat/import-eao-using-private-key**
+e.g. **feat/DA-787/import-eao-using-private-key**
 
 ---
 
