@@ -32,7 +32,13 @@ export default function ConnectButton() {
   return (
     <Paper
       variant="outlined"
-      sx={chainId ? style.borderPrimary : style.borderError}
+      sx={
+        !context.currentAccount
+          ? style.borderPrimary
+          : chainId
+          ? style.borderPrimary
+          : style.borderError
+      }
     >
       {!context.currentAccount ? (
         <ButtonBase sx={style.borderPrimary} onClick={context.connectWallet}>
